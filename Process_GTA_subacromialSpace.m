@@ -9,10 +9,10 @@ clc;
 % -------------------------------------------------------------------------
 % SET FOLDERS
 % -------------------------------------------------------------------------
-Folder.toolbox      = 'C:\Users\Florent\OneDrive - Université de Genève\_VALORISATION\articles\1- en cours\GTA\Espace_sous_acromial\';
-Folder.data         = 'C:\Users\Florent\OneDrive - Université de Genève\_VALORISATION\articles\1- en cours\GTA\Espace_sous_acromial\';
-Folder.export       = 'C:\Users\Florent\OneDrive - Université de Genève\_VALORISATION\articles\1- en cours\GTA\Espace_sous_acromial\';
-Folder.dependencies = 'C:\Users\Florent\OneDrive - Université de Genève\_VALORISATION\articles\1- en cours\GTA\Espace_sous_acromial\dependencies\';
+Folder.toolbox      = 'C:\Users\Florent\OneDrive - Université de Genève\_VALORISATION\articles\1- en cours\GTA\GTA_subacromialSpace\';
+Folder.data         = Folder.toolbox;
+Folder.export       = Folder.toolbox;
+Folder.dependencies = [Folder.toolbox,'dependencies\'];
 addpath(Folder.toolbox);
 addpath(genpath(Folder.dependencies));
 cd(Folder.data);
